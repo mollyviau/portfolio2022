@@ -1,0 +1,125 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+  }
+
+  li {
+      background-color: #333;
+
+  }
+
+ li a {
+      display: block;
+      padding: 14px 16px;
+      text-align: center;
+      color: white;
+      text-decoration: none; 
+  }
+
+
+  /* change the link color on hover */
+  li  a:hover {
+      background-color: #111;
+  }
+
+  /* change the color of the currently active link, not sure if this works yet */
+  .active {
+      background-color: #E7E9EB;
+  }
+
+ .content {
+    flex: 1 0 auto;
+ }
+
+ html, body {
+    height: 100%;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    font-family: 'Open Sans', sans-serif;
+
+
+  }
+
+
+  .mainCanvas {
+    box-sizing: content-box;
+    width: 100%;
+    height: 92%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+  }
+
+  #title {
+      color: white;
+      font-size:5rem;
+      height: auto;
+      width: auto;
+      letter-spacing: 0.6em;
+      margin-top: 0.25%;
+  
+  }
+
+  #subTitle {
+      color: white;
+      font-size: 1.5rem;
+      margin-top: -2%;
+  }
+
+
+  #avatar {
+      width: 11VW;
+      height: auto;
+   /*  height:200px;
+    width:200px; */
+    margin-top: 3.5%;
+}
+
+.copy {
+    height: auto;
+    width: 40%;
+    color: white;
+    text-align: center;
+}
+
+ .footer {
+    flex-shrink: 0;
+    display: flex; 
+    justify-content: center; 
+    background-color: #333;
+    color: white;
+
+ }
+
+ a {
+     text-decoration: none;
+     color: lightgray;
+
+ }
+
+  footer p, button {
+      float: left;
+      display: block;
+      padding: 10px;
+  }
+
+  #copyButton {
+      height: 45px;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      border-radius: 30%;
+  }
+
+ 
