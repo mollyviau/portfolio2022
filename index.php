@@ -4,14 +4,14 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-<?php include "php/head.php" ;?>
+<?php include ('php/head.php') ;?>
 
     <body>
         <div class="content">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <?php include 'php\nav.php';?>
+        <?php include ('php/nav.php');?>
 
         <div class="mainCanvas">
             <h1 id="title">MOLLY VIAU</h1>
@@ -22,7 +22,7 @@
         </div>
 
     </div>
-        <?php include 'php\footer.php';?>
+        <?php include ('php/footer.php');?>
 
         <script src="js\scripts.js" async defer></script>
 
