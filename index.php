@@ -4,7 +4,7 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-<?php include "public_html\php\head.php" ;?>
+<?php include "php\head.php" ;?>
 
     <body>
         <div class="content">
