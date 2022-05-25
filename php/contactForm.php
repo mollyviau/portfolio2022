@@ -20,6 +20,7 @@ echo
     <div id=\"buttonWrapper\">\n 
         <button id=\"contactButton\" type=\"submit\">Send Message</button>\n
     </div>
+    <div id=\"thankYouDiv\"></div>
 </form>\n    
 " 
 ?>
