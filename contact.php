@@ -18,6 +18,7 @@
             <h1 id="title">CONTACT</h1>
             <img id="avatar" src="images/pixelIcon.png">
 
+            <?php include ('php/contactForm.php');?>
 
 
         </div>

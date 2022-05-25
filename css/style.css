@@ -46,6 +46,7 @@ ul {
     flex-direction: column;
     background-color: #333;
     font-family: 'Open Sans', sans-serif;
+    color: white;
 
 
   }
@@ -89,6 +90,41 @@ ul {
     margin-top: 3.5%;
 }
 
+
+.portfolioContainer {
+    width:80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.portfolioRow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: normal;
+    align-items: normal;
+    align-content: normal;
+    width: auto;
+}
+
+.portfolioItem {
+    display: block;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: auto;
+    order: 0;
+    text-align: center;
+    border-style: double;
+    border-color: white;
+    height: 5rem;
+    width: 5rem;
+    margin: 1rem;
+
+}
+
 .copy {
     height: auto;
     width: 65%;
@@ -111,7 +147,7 @@ ul {
 
  }
 
-  footer p, button {
+  footer p {
       float: left;
       display: block;
       padding: 10px;
@@ -180,5 +216,57 @@ ul {
         .copy {
             width: 40%;
         }
+        .portfolioContainer {
+            width: 60%;
+        }
+        .portfolioItem {
+            height: 9rem;
+        }
   
   }
+
+
+  /* Contact form Styling */
+.formElements {
+    margin: 1rem;
+    font-size: 1.2rem;
+}
+
+input {
+    font-size: 1.2rem;
+}
+
+input[type=text], select {
+    width: 100%;
+}
+
+input[type=email] {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 10rem;
+    resize: none;
+    font-size: 1.2rem;
+
+}
+
+#contactButton {
+    margin: 1rem;
+    background-color:#8FB4C3 ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+#contactButton:hover {
+    background-color: #495c63;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#buttonWrapper {
+    text-align: center;
+
+}
