@@ -18,18 +18,8 @@
             <h2 id="subTitle">Web Developer</h2>
             <img id="avatar" src="images/pixelIcon.png">
             <?php include ('php/homeCopy.php');?>
-            <div class="portfolioContainer">
-                <div class="portfolioRow">
-                    <div class="portfolioItem"></div>
-                    <div class="portfolioItem"></div>
-                    <div class="portfolioItem"></div>
-                </div>
-                <div class="portfolioRow">
-                    <div class="portfolioItem"></div>
-                    <div class="portfolioItem"></div>
-                    <div class="portfolioItem"></div>
-                </div>
-            </div>
+            <?php include ('php/portfolioGrid.php');?>
+
 
 
         </div>

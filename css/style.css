@@ -123,6 +123,14 @@ ul {
     width: 5rem;
     margin: 1rem;
 
+    background-color:#8FB4C3;
+    
+
+}
+
+.holderText {
+    margin-top: 20%;
+    color:black;
 }
 
 .copy {
@@ -165,6 +173,9 @@ ul {
     #title {
         font-size: 2.5rem;
     }
+    .holderText {
+        margin-top: 20%;
+    }
   
 }
 
@@ -173,6 +184,9 @@ ul {
       font-size: 3rem;
     
   }
+  .holderText {
+    margin-top: 20%;
+}
 
 }
 
@@ -183,6 +197,9 @@ ul {
     }
     .copy {
         width: 55%;
+    }
+    .holderText {
+        margin-top: 15%;
     }
   
   }
@@ -195,6 +212,10 @@ ul {
     .copy {
         width: 50%;
     }
+
+    .holderText {
+        margin-top: 15%;
+    }
   
   }
 
@@ -204,6 +225,9 @@ ul {
     }
     .copy {
         width: 45%;
+    }
+    .holderText {
+        margin-top: 15%;
     }
       
     }
@@ -221,6 +245,10 @@ ul {
         }
         .portfolioItem {
             height: 9rem;
+        }
+
+        .holderText {
+            margin-top: 30%;
         }
   
   }
