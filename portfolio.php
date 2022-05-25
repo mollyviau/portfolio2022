@@ -17,6 +17,18 @@
         <div class="mainCanvas">
             <h1 id="title">PORTFOLIO</h1>
             <img id="avatar" src="images/pixelIcon.png">
+            <div class="portfolioContainer">
+                <div class="portfolioRow">
+                    <div class="portfolioItem"></div>
+                    <div class="portfolioItem"></div>
+                    <div class="portfolioItem"></div>
+                </div>
+                <div class="portfolioRow">
+                    <div class="portfolioItem"></div>
+                    <div class="portfolioItem"></div>
+                    <div class="portfolioItem"></div>
+                </div>
+            </div>
 
 
 
