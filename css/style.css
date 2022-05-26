@@ -121,15 +121,14 @@ ul {
     border-color: white;
     height: 5rem;
     width: 5rem;
-    margin: 1rem;
-
+    margin: 0.5rem;
     background-color:#8FB4C3;
     
 
 }
 
 .holderText {
-    margin-top: 20%;
+    margin-top: 25%;
     color:black;
 }
 
@@ -201,6 +200,11 @@ ul {
     .holderText {
         margin-top: 15%;
     }
+
+    .portfolioItem {
+        margin: 1rem;
+    }
+ 
   
   }
 
@@ -216,6 +220,10 @@ ul {
     .holderText {
         margin-top: 15%;
     }
+
+    .portfolioItem {
+        margin: 1rem;
+    }
   
   }
 
@@ -229,7 +237,9 @@ ul {
     .holderText {
         margin-top: 15%;
     }
-      
+    .portfolioItem {
+        margin: 1rem;
+    }
     }
 
     @media only screen and (min-width: 1268px) {
@@ -245,10 +255,11 @@ ul {
         }
         .portfolioItem {
             height: 9rem;
+            margin: 1rem;
         }
 
         .holderText {
-            margin-top: 30%;
+            margin-top: 25%;
         }
   
   }
