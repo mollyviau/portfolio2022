@@ -17,10 +17,11 @@ ul {
 
  li a {
       display: block;
-      padding: 14px 16px;
+      padding: 4px 6px;
       text-align: center;
       color: white;
       text-decoration: none; 
+      margin-bottom: 10px;
   }
 
 
@@ -65,7 +66,7 @@ ul {
 
   #title {
       color: white;
-      font-size:1.5rem;
+      font-size:1.2rem;
       height: auto;
       width: auto;
       letter-spacing: 0.6em;
@@ -77,7 +78,7 @@ ul {
 
   #subTitle {
       color: white;
-      font-size: 1.5rem;
+      font-size: 1.1rem;
       margin-top: -2%;
   }
 
@@ -169,6 +170,24 @@ ul {
       border-radius: 30%;
   }
 
+@media only screen and (min-width: 385px) {
+    #title {
+        font-size:1.5rem;
+    }
+
+    #subTitle {
+        font-size: 1.2rem;
+    }
+
+    li a {
+        display: block;
+        padding: 14px 16px;
+        text-align: center;
+        color: white;
+        text-decoration: none; 
+    }
+
+}
 
   @media only screen and (min-width: 768px)  {
     #title {
@@ -184,6 +203,8 @@ ul {
     }
   
 }
+
+
 
 @media only screen and (min-width: 868px) {
   #title {
