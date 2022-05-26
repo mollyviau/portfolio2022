@@ -16,7 +16,7 @@
         <div class="mainCanvas">
             <h1 id="title">MOLLY VIAU</h1>
             <h2 id="subTitle">Web Developer</h2>
-            <img id="avatar" src="images/pixelIcon.png">
+            <img id="avatar" alt="pixel avatar of Molly" src="images/pixelIcon.png">
             <?php include ('php/homeCopy.php');?>
             <?php include ('php/portfolioGrid.php');?>
 

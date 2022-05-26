@@ -16,7 +16,7 @@
 
         <div class="mainCanvas">
             <h1 id="title">PORTFOLIO</h1>
-            <img id="avatar" src="images/pixelIcon.png">
+            <img alt="pixel avatar of Molly" id="avatar" src="images/pixelIcon.png">
            <?php include ('php/portfolioGrid.php');?>
 
 
