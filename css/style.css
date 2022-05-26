@@ -146,6 +146,7 @@ ul {
     background-color: #333;
     color: white;
 
+
  }
 
  a {
@@ -157,7 +158,8 @@ ul {
   footer p {
       float: left;
       display: block;
-      padding: 10px;
+      padding: 0.20rem;
+      font-size: 0.80rem;
   }
 
   #copyButton {
@@ -175,6 +177,11 @@ ul {
     .holderText {
         margin-top: 20%;
     }
+
+    footer p {
+        padding: 0.5rem;
+        font-size: 0.80rem;
+    }
   
 }
 
@@ -185,6 +192,11 @@ ul {
   }
   .holderText {
     margin-top: 20%;
+}
+
+footer p {
+    padding: 0.5rem;
+    font-size: 0.80rem;
 }
 
 }
@@ -203,6 +215,11 @@ ul {
 
     .portfolioItem {
         margin: 1rem;
+    }
+
+    footer p {
+        padding: 0.5rem;
+        font-size: 0.80rem;
     }
  
   
@@ -224,6 +241,12 @@ ul {
     .portfolioItem {
         margin: 1rem;
     }
+
+    
+    footer p {
+        padding: 0.5rem;
+        font-size: 0.80rem;
+    }
   
   }
 
@@ -239,6 +262,12 @@ ul {
     }
     .portfolioItem {
         margin: 1rem;
+    }
+
+    
+    footer p {
+        padding: 0.5rem;
+        font-size: 0.85rem;
     }
     }
 
@@ -260,6 +289,11 @@ ul {
 
         .holderText {
             margin-top: 25%;
+        }
+
+        footer p {
+            padding: 0.5rem;
+            font-size: 0.90rem;
         }
   
   }
